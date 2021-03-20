@@ -1,0 +1,356 @@
+<html>
+    
+	<head>
+	          <title> Курс по анонимности в сети </title>
+	          <link rel="shortcut icon" href="11.ico" type="image/x-icon">
+			  <link rel="stylesheet" href="style.css">
+	<script type="text/javascript">
+window.onload = function() {
+    document.getElementById('SuperButton').onclick = function()
+    {
+        if(document.body.className != 'new_class')
+        {
+            document.body.className = 'new_class';
+        }
+        else
+        {
+            document.body.className = '';
+        }
+		
+		if(document.getElementById('yak1').className != 'ng')
+        {
+            document.getElementById('yak1').className = 'ng';
+        }
+        else
+        {
+            document.getElementById('yak1').className = 'ig';
+        }
+		
+		
+		if(document.getElementById('yak2').className != 'jr')
+        {
+            document.getElementById('yak2').className = 'jr';
+        }
+        else
+        {
+            document.getElementById('yak2').className = 'jh';
+        }
+		
+		
+		if(document.getElementById('yak3').className != 'lon2')
+        {
+            document.getElementById('yak3').className = 'lon2';
+        }
+        else
+        {
+            document.getElementById('yak3').className = 'lon';
+        }
+		if(document.getElementById('yak4').className != 'qw')
+        {
+            document.getElementById('yak4').className = 'qw';
+        }
+        else
+        {
+            document.getElementById('yak4').className = 'wq';
+        }
+		
+			if(document.getElementById('SuperButton').className != 'night2')
+        {
+            document.getElementById('SuperButton').className = 'night2';
+        }
+        else
+        {
+            document.getElementById('SuperButton').className = 'night';
+        }
+    }
+}
+</script>
+<style>
+.hover_menu2{
+	background-image:url(17.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:5vw;
+	height:5vw;
+	float:right;
+	margin:1%;
+}
+.ig{
+    width:12vw;
+	height:7vw;
+	float:left;
+	background-image:url(12.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.qw{
+    width: 90%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size:4vw;
+    line-height:7vw;
+    color: #05FF00;
+	margin:0 auto;
+	margin:3vw;
+}
+.lon{
+    width:100%;
+	height:1vw;
+	background-image:url(line1.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.lon2{
+    width:100%;
+	height:1vw;
+	background-image:url(line2.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.ng{
+    width:12vw;
+	height:7vw;
+	float:left;
+	background-image:url(13.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.jh{
+    width:53vw;
+	margin-left:5vw;
+	margin-top:1vw;
+	float:left;
+		height:7vw;
+	background-image:url(Cyber.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.jr{
+    width:53vw;
+	margin-left:5vw;
+	margin-top:1vw;
+	float:left;
+	height:7vw;
+	background-image:url(Cyber2.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+body { background:#00000; min-height: 100%; }
+.new_class { background:#000000; color:white; }
+
+</style>
+	</head>
+	
+	
+	<body>
+	<!--Шапка-->
+		<div>
+		<div id="yak1" class="ig"></div>   
+	          <div id="yak2" class="jh"></div>	  
+	          <button id="SuperButton" class="night" name="SuperButton"></button>
+			 <div id="yak3" class="lon"></div>
+	    </div>
+	<!--Шапка-->
+		
+	<!--Темы-->
+	<style type="text/css">
+.jR3DCarouselGallery,.jR3DCarouselGalleryCustomeTemplate {
+	margin: 0 auto; /* optional - if want to center align */
+}
+</style>
+<style>
+.jR3DCarouselGalleryCustomeTemplate .captions{
+	position: relative;
+	padding: 4px 0;
+	bottom: 27px;
+	background: #ec1c8e;
+	display:block			
+}
+.jR3DCarouselGalleryCustomeTemplate a{
+	text-decoration: none;			
+}
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="dist/jR3DCarousel.min.js"></script>
+<!-- <script type="text/javascript" src="src/jR3DCarousel.js"></script> -->
+
+<script type="text/javascript">
+(function(b){"function"===typeof define&&define.amd?define(["jquery"],b):"object"===typeof exports?module.exports=b(require("jquery")):b(jQuery)})(function(b){b.fn.jR3DCarousel=function(E){function x(){q();v=setInterval(A,a.animationInterval+a.animationDuration)}function q(){v&&clearInterval(v)}function A(){r=u+1;y.run(a.animation,r);z()}function B(F){r=Math.floor(u/c)*c+F;y.run(a.animation,r);z()}function w(){this.animations={slide:G,slide3D:H,scroll:I,scroll3D:J,fade:K}}function G(a){d.css({perspective:"",
+overflow:"hidden"});f=g*a;h.css({transform:"translateZ("+-e+"px) rotateY("+-f+"deg)"})}function H(a){d.css({perspective:k,overflow:"visible"});f=g*a;h.css({transform:"translateZ("+-e+"px) rotateY("+-f+"deg)"})}function I(a){d.css({perspective:"",overflow:"hidden"});f=g*a;h.css({transform:"translateZ("+-e+"px) rotateX("+-f+"deg)"})}function J(a){d.css({perspective:k,overflow:"visible"});f=g*a;h.css({transform:"translateZ("+-e+"px) rotateX("+-f+"deg)"})}function K(d){h.css({transition:"opacity "+a.animationDuration+
+"ms "+a.animationCurve,opacity:0});f=g*d;h.css({transform:"translateZ("+-e+"px) rotateY("+-f+"deg)"});h.css({opacity:1})}function z(){d.find(".nav").css({backgroundColor:"rgba(255, 255, 255, 0.77)"}).eq(r%c).css({backgroundColor:"rgba(0, 0, 0, 0.77)"});u=Math.round(f/g);a.onSlideShow.call(this,h.find("."+a.slideClass).eq(u%c))}function C(){d.width("100%");h.hide();n=d.width()<a.width?d.width():a.width;t=n/L;d.css({width:n+"px",height:t+"px"});-1!=a.animation.indexOf("slide")?(e=n/2/Math.tan(Math.PI/
+c),k=n/2*Math.tan(2*Math.PI/c)+"px"):-1!=a.animation.indexOf("scroll")?(e=t/2/Math.tan(Math.PI/c),k=t/2*Math.tan(2*Math.PI/c)+"px"):"fade"==a.animation&&(e=n/2/Math.tan(Math.PI/c),k=n/2*Math.tan(2*Math.PI/c)+"px");d.find("."+a.slideClass).each(function(d){var c=b(this);-1!=a.animation.indexOf("slide")?p="rotateY("+g*d+"deg) translateZ("+e+"px)":-1!=a.animation.indexOf("scroll")?p="rotateX("+g*d+"deg) translateZ("+e+"px)":"fade"==a.animation&&(p="rotateY("+g*d+"deg) translateZ("+e+"px)");c.css({transform:p})});
+k=a.perspective||k;h.css({transform:"translateZ("+-e+"px) rotateY("+-f+"deg)"});h.show();d.css({perspective:k})}function M(a,d){var c,D,e,b,h,g,k;a.on("touchstart",function(a){a=a.originalEvent.changedTouches[0];c="none";D=a.pageX;e=a.pageY;k=(new Date).getTime()}).on("touchmove",function(a){a.preventDefault()}).on("touchend",function(a){a=a.originalEvent.changedTouches[0];b=a.pageX-D;h=a.pageY-e;g=(new Date).getTime()-k;700>=g&&(20<=Math.abs(b)&&100>=Math.abs(h)?c=0>b?"left":"right":20<=Math.abs(h)&&
+100>=Math.abs(b)&&(c=0>h?"up":"down"));d(c)})}var a=b.extend(!0,{},{width:innerWidth,height:innerHeight,slides:[],slideLayout:"fill",perspective:0,animation:"slide3D",animationCurve:"ease",animationDuration:700,animationInterval:1E3,autoplay:!0,controls:!0,slideClass:"jR3DCarouselSlide",navigation:"circles",rotationDirection:"rtl",onSlideShow:function(){}},E),d=this,n=a.width,t=a.height,L=a.width/a.height,h=b("<div class='jR3DCarousel' />").css({width:"100%",height:"100%",transition:"transform "+
+a.animationDuration+"ms "+a.animationCurve,transformStyle:"preserve-3d"}).appendTo(d),u=0,r=1,y=new w,l,m,v,g,f=0,e,k,p,c=a.slides.length||d.find("."+a.slideClass).length;(function(){function f(){"rtl"==a.rotationDirection?(l=b("<div class='previous controls' style='left: 0.1em;'>&lang;</div>"),m=b("<div class='next controls' style='right: 0.1em;'>&rang;</div>")):(l=b("<div class='previous controls' style='right: 0.1em;'>&rang;</div>"),m=b("<div class='next controls' style='left: 0.1em;'>&lang;</div>"));
+l.add(m).css({position:"absolute",top:"50%",zIndex:1,transform:"translateY(-50%)",fontSize:"4em",color:"rgba(255, 255, 255, 0.97)",cursor:"pointer",userSelect:"none"}).appendTo(d).hide();l.on("click",function(){r=u-1;y.run(a.animation,r);z()});m.on("click",function(){A()});d.on("mouseenter touchstart",function(){l.add(m).show()}).on("mouseleave touchcancel",function(){l.add(m).hide()});l.hover(function(){l.css({color:"rgba(201, 201, 201, 0.97)"})},function(){l.css({color:"rgba(255, 255, 255, 0.97)"})});
+m.hover(function(){m.css({color:"rgba(201, 201, 201, 0.97)"})},function(){m.css({color:"rgba(255, 255, 255, 0.97)"})});b(document).on("keydown",function(c){var b=d[0].getBoundingClientRect();(b=0<b.bottom&&0<b.right&&b.left<(innerWidth||document.documentElement.clientWidth)&&b.top<(innerHeight||document.documentElement.clientHeight))&&37==c.which?(q(),"rtl"==a.rotationDirection?l.click():m.click()):b&&39==c.which&&(q(),"rtl"==a.rotationDirection?m.click():l.click())});M(d,function(b){q();"left"==
+b?m.click():"right"==b?l.click():-1!=a.animation.indexOf("scroll")&&("down"==b?m.click():"up"==b&&l.click())})}function v(){for(var e=b("<div class=navigation />").css({position:"absolute",bottom:0,right:0}),g=0;g<c;g++)e.append("<div class=nav></div>");"circles"==a.navigation&&e.find(".nav").css({borderRadius:"12px"});e.find(".nav").css({display:"inline-block",margin:"5px",cursor:"pointer",backgroundColor:"rgba(255, 255, 255, 0.77)",width:"12px",height:"12px",transition:"all "+a.animationDuration+
+"ms ease"}).first().css({backgroundColor:"rgba(0, 0, 0, 1)"});h.after(e);d.on("click",".nav",function(){B(b(this).index())})}(function(){-1!=a.animation.indexOf("slide")?(e=n/2/Math.tan(Math.PI/c),k=n/2*Math.tan(2*Math.PI/c)+"px"):-1!=a.animation.indexOf("scroll")?(e=t/2/Math.tan(Math.PI/c),k=t/2*Math.tan(2*Math.PI/c)+"px"):"fade"==a.animation&&(e=n/2/Math.tan(Math.PI/c),k=n/2*Math.tan(2*Math.PI/c)+"px");g=360/c;if(a.slides.length)for(var f=0;f<a.slides.length;f++){var l=b("<div class='jR3DCarouselSlide' data-index="+
+f+" />").append("<img src='"+a.slides[f].src+"' alt='"+a.slides[f].alt+"' />");-1!=a.animation.indexOf("slide")?p="rotateY("+g*f+"deg) translateZ("+e+"px)":-1!=a.animation.indexOf("scroll")?p="rotateX("+g*f+"deg) translateZ("+e+"px)":"fade"==a.animation&&(p="rotateY("+g*f+"deg) translateZ("+e+"px)");l.css({transform:p});h.append(l)}else d.find("."+a.slideClass).each(function(c){var d=b(this).attr("data-index",c);-1!=a.animation.indexOf("slide")?p="rotateY("+g*c+"deg) translateZ("+e+"px)":-1!=a.animation.indexOf("scroll")?
+p="rotateX("+g*c+"deg) translateZ("+e+"px)":"fade"==a.animation&&(p="rotateY("+g*c+"deg) translateZ("+e+"px)");d=d.css({transform:p}).detach();h.append(d)});h.find("."+a.slideClass).css({position:"absolute",left:0,top:0,width:"100%",height:"100%",backfaceVisibility:"hidden"}).find("img").css({width:"100%",height:"100%",objectFit:a.slideLayout});k=a.perspective||k;d.css({perspective:k,width:n+"px",height:t+"px",position:"relative",overflow:"visible"})})();a.controls&&f();a.navigation&&v();addEventListener("resize",
+C);C();if(a.autoplay){var w=function(){document.hidden?q():x()};document.addEventListener("visibilitychange",w);addEventListener("beforeunload",function(){document.removeEventListener("visibilitychange",w)});d.hover(function(){clearTimeout(b(this).data("timeout"));q()},function(){b(this).data("timeout",setTimeout(function(){x()},a.animationInterval+a.animationDuration))});x()}})();w.prototype.run=function(a,b){this.animations[a](b)};this.showSlide=function(a){B(a%c)};this.getCurrentSlide=function(){return h.find("."+
+a.slideClass).eq(u%c)};this.getSlideByIndex=function(b){return h.find("."+a.slideClass+"[data-index="+b+"]")};this.showPreviousSlide=function(){l.click()};this.showNextSlide=function(){m.click()};this.playCarousel=function(){x()};this.pauseCarousel=function(){q()};return this}});
+$(document).ready(function(){
+	var slideImages = [ {src: '9.jpg'},
+	              		{src: '10.jpg'},
+	              		{src: '8.png'},
+	              		{src: '6.png'},
+	              		{src: '7.jpg'} ]
+	
+	jR3DCarousel = $('.jR3DCarouselGallery').jR3DCarousel({
+		width: 900, 		
+		height: 600, 		
+		slides: slideImages 
+	});
+	
+	var carouselCustomeTemplateProps =  {
+	 		  width: 470, 				
+			  height: 272, 				
+			  slideLayout : 'fill',     /* "contain" (fit according to aspect ratio), "fill" (stretches object to fill) and "cover" (overflows box but maintains ratio) */
+			  animation: 'slide3D', 	/* slide | scroll | fade | zoomInSlide | zoomInScroll */
+			  animationCurve: 'ease',
+			  animationDuration: 1900,
+			  animationInterval: 2000,
+			  slideClass: 'jR3DCarouselCustomSlide',
+			  autoplay: false,
+			  controls: true,			/* control buttons */
+			  navigation: ''			/* circles | squares | '' */,
+			  perspective: 2200,
+			  rotationDirection: 'ltr',
+			  onSlideShow: slideShownCallback
+				  
+		}
+	function slideShownCallback($slide){
+		console.log("Slide shown: ", $slide.find('img').attr('src'))
+	}
+
+	jR3DCarouselCustomeTemplate = $('.jR3DCarouselGalleryCustomeTemplate').jR3DCarousel(carouselCustomeTemplateProps);
+
+  })
+</script>
+	<h1 id="yak4" class="wq">Курс по анонимности в сети.</h1>
+	<div class="container">
+		<div class="jR3DCarouselGallery"></div>
+		<br /> <br />
+		<br /> <br />
+	</div>
+
+    <div class="hovereffect">
+        <a href="Проект3.html">
+		<img class="img-responsive" src="5 1.png" >
+            <div class="overlay">
+                <h2>Зачем мне анонимность и безопасность в сети?</h2>
+                <p class="icon-links">
+                    
+                        <span class="date">23/02/21</span>
+                  
+                </p>
+            </div>
+		</a>
+    </div>
+
+		
+		
+<div class="hovereffect">
+        <a href="Проект2.html">
+		<img class="img-responsive" src="6 1.png" >
+            <div class="overlay">
+                <h2>Социальные сети</h2>
+                <p class="icon-links">
+                   
+                        <span class="date">20/03/21</span>
+
+                    <
+                </p>
+            </div>
+    </div>
+	</a>
+</div>
+		
+<div class="hovereffect">
+        <a href="Проект4.html">
+		<img class="img-responsive" src="6.jpg" >
+            <div class="overlay">
+                <h2>Можно ли пиратить?</h2>
+                <p class="icon-links">
+                    
+                        <span class="date">--/--/--</span>
+                    
+                </p>
+            </div>
+    </div>
+	</a>
+</div>
+		
+			 
+<div class="hovereffect">
+        <a href="Проект5.html">
+		<img class="img-responsive" src="5.jpg" >
+            <div class="overlay">
+                <h2>Как в Windows 10 отключить телеметрию?</h2>
+                <p class="icon-links">
+                    
+                        <span class="date">--/--/--</span>
+                   
+                </p>
+            </div>
+    </div>
+	</a>
+</div>
+<div class="hovereffect">
+        <a href="Проект6.html">
+		<img class="img-responsive" src="1.jpg" >
+            <div class="overlay">
+                <h2>Как настроить анонимность в Google Chrom?</h2>
+                <p class="icon-links">
+                   
+                        <span class="date">--/--/--</span>
+                 
+                </p>
+            </div>
+    </div>
+	</a>
+</div>
+<div class="hovereffect">
+        <a href="Проект7.html">
+		<img class="img-responsive" src="12.jpg" >
+            <div class="overlay">
+                <h2>Чипирование- слежка за пользователя в будущем</h2>
+                <p class="icon-links">
+                   
+                        <span class="date">--/--/--</span>
+
+                </p>
+            </div>
+    </div>
+	</a>
+</div>
+		
+	<!--Темы-->
+		<a href="#yak1">
+		      <img src="7 1.png" class="oi">
+	    </a>
+	<!--Подвал-->
+	<footer id="ju"> 
+        <div class='fot'>
+            <p class="p">Информационный сайт по киберьезопасности и анонимности в сети.</p>
+			<p class="p a">Автор:Шевелев Дмитрий</p>
+            <p class="p"><a href="https://vk.com/dimac2007"><img src="3.png" class="foter_img">
+            Вк автора</a></p>
+            
+        </div>
+        <div  class='fot'>
+            <p class="p"><img src="9.png" class="foter_img2">
+			Почта автора:</p>
+            <p class="p a"> dima.shevelev.07@inbox.ru</p>
+            <p class="p"><img src="10.png" class="foter_img2">
+            Дискорд автора:</p>
+            <p class="p a"> Дима Шевелев#1612</p>
+        </div>
+	   </footer>
+	<!--Подвал-->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	</body>
+	
+</html>	

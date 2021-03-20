@@ -1,0 +1,521 @@
+{
+	border:red solid 4px;
+}
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+	float:left;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+.jR3DCarouselGalleryDefault,
+.jR3DCarouselGalleryCustom {
+  margin: 0 auto;
+}
+.night:after{
+	content: "Ночь";
+}
+.night{
+	margin:2vw;
+	width:12vw;
+	height:4vw;
+	background: #1B94D9;
+}
+.night:focus {
+    outline: none !important;
+}
+.night2{
+	margin:2vw;
+	width:12vw;
+	height:4vw;
+	background: #05FF00;
+}
+.night2:after{
+	content: "День";
+}
+
+.jR3DCarouselGalleryCustom .captions {
+  position: relative;
+  padding: 5px 0;
+  bottom: 4px;
+  color: white;
+  background: #2eb127;
+  display: block;
+}
+.jR3DCarouselGalleryCustom a{
+	text-decoration: none;			
+}
+/*Head*/
+.ig{
+    width:12vw;
+	height:7vw;
+	float:left;
+	background-image:url(12.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.lon{
+    width:100%;
+	height:1vw;
+	background-image:url(line1.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.fast{	
+	display:none;
+}
+.hover_menu{
+	background-image:url(image4.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:5vw;
+	height:5vw;
+	float:right;
+	margin:1%;
+}
+.menu{
+    float:right;
+}
+div.hover_menu:hover ul.fast{
+	display: block;
+	position:relative;
+	top:3%;
+	width:100%;
+	height:100%;
+	
+}
+div.hover_menu2:hover ul.fast{
+	display: block;
+	position:relative;
+	top:3%;
+	width:100%;
+	height:100%;
+	
+}
+/*Head*/
+/*tems*/
+
+.first_t{
+    width:100vw;
+    float:left;
+}
+.first_tem{
+    float:left;
+    font-size:8vw;
+	width:800vw;
+}
+.first_h:hover{
+	background-color:00FFE4;
+}
+.second_h:hover{
+	background-color:00FFE4;
+}
+.second_t{
+    width:50vw;
+    float:right;
+
+}
+.second_tem{
+    width:400vw;
+	height:5vw;
+	float:right;
+	font-size:7vw;
+}
+.lk{
+    width:40vw;
+	margin:20vw;
+	float:left;
+}
+.ll{
+    width:40vw;
+	float:right;
+	height:50vw;
+	margin:20vw;
+}
+.first_tem_img{
+    width:50vw;	
+}
+.second_tem_img{
+	width:50vw;
+}
+.podtem{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size:4vw;
+	margin:0 auto;
+	margin:3vw;
+}
+/*tems*/
+#dir{
+	height:30vw;
+	width:100vw;
+	float:right;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	overflow-x: hidden;
+	padding:1vw;
+}
+#ju{
+	background:#6F747D;
+	width:98vw;
+	float:left;
+	padding:1vw;
+}
+#rew{
+    font-size:50vw;
+}
+#rel{
+    font-size:50vw;
+}
+#rer{
+	font-size:25vw;
+}
+.lan{
+    width:12vw;
+}
+#t{
+	float:right;
+}
+.im{
+	width:25vw;
+	padding:10vw 10vw 10vw 10vw;
+}
+.in{
+	width:25vw;
+	padding:10vw 10vw 10vw 10vw ;
+	float:right;
+}
+.rey{
+	width:50vw;
+	padding:25vw;
+	float:left;
+}
+.wq{
+    width: 90%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size:4vw;
+    line-height:7vw;
+    color: #00A3FF;
+	margin:0 auto;
+	margin:3vw;
+}
+.oi{    
+	position:fixed;
+	width: 5vw;
+	height: 5vw;
+	right: 1vw;
+	top:90%;
+	float:right;
+}
+.h{
+	width:40vw;
+}
+#er{
+	font-style:italic;
+}
+#o{
+	font-size:3vw;
+}
+.poi{
+    width:40vw;
+    border-radius: 54vw;
+	float:left;
+	margin:5vw;
+}
+.center{
+    margin-left: 25vw;
+	margin-right: 25vw;
+	width:60vw;
+}
+.video{
+	width:60vw;
+    height:40vw;	 
+	margin:20 auto;
+	display: block;
+}
+.pou{
+    width:40vw;
+	height:25vw;
+    border-radius: 54vw;
+	float:right;
+	margin:1vw;
+}
+#ret{
+	font-size:2vw;
+}
+.foter_img2{
+	width:5vw;
+	margin-top:1vw;
+}
+.foter_img{
+	width:3vw;
+	margin-top:1vw;
+}
+.foter_h{
+	display:inline;
+}
+.fot {
+    width:48vw;
+    float:left;
+}
+.p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+	font-size:2vw;
+}
+.a{
+	color:white;
+	text-decoration:none;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+.fotd1{
+	width:48vw;
+	float:left;
+}
+.fotd2{
+	width:48vw;
+	float:left;
+}
+/*menu*/
+ul{
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+	opacity:0.9;
+}
+li{
+  display: inline-block;
+  float: left;
+  margin-right:5vw;
+  opacity:10;
+}
+li a{
+  display: block;
+  min-width: 20vw;
+  height: 3vw;
+  text-align: center;
+  line-height: 3vw;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: #00A3FF;
+  text-decoration: none; 
+  opacity:10;
+  
+}
+li:hover a{
+  background: #19c589;
+  opacity:10;
+}
+li:hover ul a{
+  background: #f3f3f3;
+  color: #2f3036;
+  height: 4vw;
+  line-height: 40vw;
+  opacity:10;
+} 
+li:hover ul a:hover{
+  background: #19c589;
+  color: #fff;
+  opacity:10;
+}
+li ul{
+  display: none;
+}
+li ul li{
+  display: block; 
+  float: none; 
+  opacity:10;
+}
+li ul li a{
+  width: auto; 
+  min-width: 10vw; 
+  padding: 0 2vw; 
+  opacity:10;
+}
+ul li a:hover + .hidden, .hidden:hover{
+  display: block; 
+  opacity:10;
+}
+.adapt{
+	display: none; 
+}
+div.hover_menu:hover div.adapt{
+	display: block;
+	position:relative;
+	top:3%;
+	width:30%;
+	height:100%;
+	
+}
+/*menu*/
+.hovereffect {
+    width: 40vw;
+    height: 22vw;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+	margin:2vw;
+}
+.img-responsive{
+	width: 100%;
+}
+.overlay {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: #79FAC4;
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+	visibility: hidden;
+
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	width: 100%;
+}
+
+.hovereffect:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+	transform: translate3d(0,-10%,0);
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+	float:right;
+	margin: 0px;
+	display: inline-block;
+}
+.date{
+	color:white;
+}
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 50px 0 0 0;
+	background-color: transparent;
+}
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect p.icon-links a {
+	float: right;
+	color: #3c4a50;
+	font-size: 1.4em;
+}
+
+.hovereffect:hover p.icon-links a:hover,
+.hovereffect:hover p.icon-links a:focus {
+	color: #252d31;
+}
+
+.hovereffect h2,
+.hovereffect p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+	visibility: visible;
+}
+
+.hovereffect p.icon-links a span:before {
+	display: inline-block;
+	padding: 8px 10px;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover h2,
+.hovereffect:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.hovereffect:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
